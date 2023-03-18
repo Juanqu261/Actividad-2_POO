@@ -1,8 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-
 import java.util.Scanner;
 
 public class Ejercicio10 {
@@ -32,8 +27,8 @@ public class Ejercicio10 {
         if(patrim>2000000 && estrato>3){
             valorM=valorM+(patrim*(0.03));   
        
-       }
-    
+        }
+
         System.out.println("Numero de inscripcion: "+numI);
         System.out.println("Nombre: "+nombre);
         System.out.println("Pago de matricula: "+valorM);
