@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejercicio18;
+
 import java.util.Scanner;
 
 public class Ejercicio18 {
@@ -28,6 +28,7 @@ public class Ejercicio18 {
       
       System.out.println("Digite el porcentaje de retencion: ");
       porcentajeRetencion= input.nextDouble();
+      input.close();
       
       salarioB= horasTrabajadas*valorHora;
       salarioN= salarioB-(salarioB*(porcentajeRetencion/100));

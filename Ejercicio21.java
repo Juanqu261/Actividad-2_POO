@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejercicio21;
+
 import static java.lang.Math.sqrt;
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -21,6 +21,7 @@ public class Ejercicio21 {
       lado2= input.nextDouble();
       System.out.println("Digite el valor del cateto 3 del triangulo: ");
       lado3= input.nextDouble();
+      input.close();
      
       perimetro= lado1+lado2+lado3;
       semiP= perimetro/2;

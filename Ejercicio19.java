@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejercicio19;
+
 import static java.lang.Math.sqrt;
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -18,6 +18,7 @@ public class Ejercicio19 {
       
       System.out.println("Digite el valor de un lado del triangulo: ");
       lado= input.nextInt();
+      input.close();
       
       perimetro=lado*3;
       altura= (sqrt(3)/2)*lado;

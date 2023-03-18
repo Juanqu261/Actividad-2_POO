@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejercicio7;
+
 
 import java.util.Scanner;
 
@@ -19,6 +19,7 @@ public class Ejercicio7 {
         
         System.out.println("Digite el segundo numero: ");
         numB= input.nextDouble();
+        input.close();
         
         if(numA>numB){
             System.out.println(numA +" es mayor que "+ numB);
