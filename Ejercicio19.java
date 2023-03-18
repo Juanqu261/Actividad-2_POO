@@ -1,8 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-
 import static java.lang.Math.sqrt;
 import java.text.DecimalFormat;
 import java.util.Scanner;
